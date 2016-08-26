@@ -1,0 +1,52 @@
+{
+  "name": "mobditor",
+  "version": "1.0.0",
+  "description": "Web-based text editor using React and Mobx",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khanhhaduc/mobditor.git"
+  },
+  "keywords": [
+    "react",
+    "mobx"
+  ],
+  "author": "Ken Ha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khanhhaduc/mobditor/issues"
+  },
+  "homepage": "https://github.com/khanhhaduc/mobditor#readme",
+  "dependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "mobx": "^2.4.4",
+    "mobx-react": "^3.5.5",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-eslint": "^6.1.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-plugin-transform-decorators": "^6.13.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-runtime": "^6.12.0",
+    "babel-plugin-typecheck": "^3.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "eslint": "^3.3.1",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-loader": "^1.5.0",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^2.1.0",
+    "eslint-plugin-react": "^6.1.2",
+    "react-transform-catch-errors": "^1.0.2",
+    "redbox-react": "^1.3.0"
+  }
+}
