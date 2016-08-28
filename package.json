@@ -25,6 +25,7 @@
     "babel-loader": "^6.2.5",
     "babel-preset-es2015": "^6.14.0",
     "babel-preset-react": "^6.11.1",
+    "core-decorators": "^0.12.3",
     "mobx": "^2.4.4",
     "mobx-react": "^3.5.5",
     "react": "^15.3.1",

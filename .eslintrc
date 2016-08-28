@@ -5,6 +5,9 @@
     "mocha": true
   },
   "rules": {
+    "react/prop-types": 0,
+    "react/sort-comp": 0,
+    "react/prefer-stateless-function": 0,
     "react/jsx-indent": 0,
     "react/react-in-jsx-scope": 0,
     "react/no-multi-comp": 0,
@@ -31,6 +34,7 @@
   "plugins": [
     "react", "import"
   ],
+  "parser": "babel-eslint",
   "settings": {
     "import/parser": "babel-eslint",
     "import/resolve": {
