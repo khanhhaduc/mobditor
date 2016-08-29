@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import { observer } from 'mobx-react';
 import { autobind } from 'core-decorators';
-
 import DevTools from 'mobx-react-devtools';
-import { Section } from '../components';
 
 @observer
 export default class Editor extends Component {
@@ -13,12 +11,9 @@ export default class Editor extends Component {
 		return (
 			<div>
 				{'Editor'}
-				<button onClick={this.newSection}>{'Add section'}</button>
-				{store.sections.map((section, key) =>
-					<Section
-						key={`section-${key}`}
-						data={section}
-					/>
+				<button onClick={this.newNode}>{'Add node'}</button>
+				{store.nodes.map((node, key) =>
+					<span key={`node-${key}`}>{node}</span>
 				)}
 				<DevTools />
 			</div>
@@ -26,10 +21,7 @@ export default class Editor extends Component {
 	}
 
 	@autobind
-	newSection() {
-		this.props.store.addSection({
-			text: 'kennek',
-			ticked: false
-		});
+	newNode() {
+		this.props.store.addNode('kennek');
 	}
 }
